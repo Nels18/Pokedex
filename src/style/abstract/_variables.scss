@@ -1,0 +1,95 @@
+// @font-face {
+// 	font-family: "Jost";
+// 	src: url(../../assets/fonts/Jost/Jost-VariableFont_wght.ttf)
+// 		format("truetype");
+// }
+
+// @font-face {
+// 	font-family: "Jost";
+// 	src: url(../../assets/fonts/Jost/static/Jost-ExtraBold.ttf)
+// 		format("truetype");
+// 	font-weight: bold;
+// 	font-style: normal;
+// }
+
+// @font-face {
+// 	font-family: "Jost";
+// 	src: url(../../assets/fonts/Jost/static/Jost-SemiBold.ttf)
+// 		format("truetype");
+// 	font-weight: 500;
+// 	font-style: normal;
+// }
+// /* to change the police weight use "font-weight : 100/200/300/400/500 etc.." */
+
+// /* ---- Colors ---- */
+
+// /// @type Color
+// $purple: #8b37ff;
+
+// /// @type Color
+// $darkpurple: #5404c1;
+
+// /// @type Color
+// $darkblue: #321660;
+
+// /// @type Color
+// $lightpurple: #b783ff;
+
+// /// @type Color
+// $grey: #7a7a7b;
+
+// /// @type Color
+// $fushia: #ea1789;
+
+// /// @type Color
+// $green: #66f395;
+
+// /// Primary
+// /// @type Color
+// /// @require $purple;
+// $primary: $purple;
+
+// /// Dark Primary
+// /// @type Color
+// /// @require $darkpurple
+// $dark-primary: $darkpurple;
+
+// /// Dark Primary
+// /// @type Color
+// /// @require $darkblue
+// $darken-primary: $darkblue;
+
+// /// Light Primary
+// /// @type Color
+// /// @require $lightpurple
+// $light-primary: $lightpurple;
+
+// /// Primary
+// /// @type Color
+// /// @require $green;
+// $secondary: $green;
+
+// /// Light Primary
+// /// @type Color
+// /// @require $secondary
+// $light-secondary: scale-color($secondary, $lightness: 40%);
+
+// /// Dark Primary
+// /// @type Color
+// /// @require $secondary
+// $dark-secondary: scale-color($secondary, $lightness: -50%);
+
+
+// /// Darker Primary
+// /// @type Color
+// /// @require $secondary
+// $darken-secondary: scale-color($secondary, $lightness: -40%);
+
+// // light-secondary
+// // darken-secondary
+
+// /* ---- Font ---- */
+
+// /// Main font family
+// /// @type List
+// $main-font: "Jost", Arial, Helvetica, sans-serif;
