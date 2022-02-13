@@ -10,8 +10,12 @@ import { Pokemon } from '../models/pokemon';
 export class ApiService {
   constructor(private httpClient: HttpClient) {}
 
-  fetchAllPokemon(): Observable<any> {
-    let url = 'https://pokeapi.co/api/v2/pokemon?limit=10';
+  fetchPokemon(nbPokemons: number): Observable<any> {
+    let url = `https://pokeapi.co/api/v2/pokemon?limit=${nbPokemons}`;
+    return this.httpClient.get<any>(url);
+  }
+
+  fetchMorePokemon(url: string): Observable<any> {
     return this.httpClient.get<any>(url);
   }
 

@@ -1,0 +1,14 @@
+.container {
+  width: 70%;
+  max-width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  background-color: #ddd;
+
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}

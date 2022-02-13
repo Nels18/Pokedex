@@ -1,5 +1,5 @@
-<ul>
-  <li *ngFor="let pokemon of pokemons">
-    <app-pokemon-item [pokemon]="pokemon"></app-pokemon-item>
-  </li>
-</ul>
+<div class="container" (window:scroll)="loadMore($event)">
+  <ul>
+    <app-pokemon-item *ngFor="let pokemon of pokemons" [pokemon]="pokemon"></app-pokemon-item>
+  </ul>
+</div>

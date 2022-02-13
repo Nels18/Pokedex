@@ -1,0 +1,25 @@
+.pokemon__item {
+  width: 250px;
+  height: auto;
+  padding: 15px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .pokemon__title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .pokemon__types {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+    .pokemon__type {
+      display: inline-block;
+    }
+  }
+}

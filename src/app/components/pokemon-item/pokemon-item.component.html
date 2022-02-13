@@ -1,4 +1,7 @@
-<p>#{{pokemon.data?.id}} {{pokemon.name}}</p>
-<ul>
-  <li *ngFor="let type of pokemon.data?.types">{{type.type.name}}</li>
-</ul>
+<li class="pokemon__item">
+  <div class="pokemon__title">#{{pokemon.data?.id}} {{pokemon.name | titlecase}}</div>
+  <img class="pokemon__img" src="{{pokemon.data?.sprites.front_default}}" alt="">
+  <ul class="pokemon__types">
+    <li class="pokemon__type" *ngFor="let type of pokemon.data?.types">{{type.type.name}}</li>
+  </ul>
+</li>
