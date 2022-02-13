@@ -1,6 +1,7 @@
 .container {
   width: 70%;
   max-width: 1000px;
+  min-width: 300px;
   height: auto;
   margin: 0 auto;
   background-color: #ddd;
@@ -10,5 +11,6 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding: 3em 0;
   }
 }

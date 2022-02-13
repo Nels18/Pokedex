@@ -73,7 +73,7 @@ export class PokemonListComponent implements OnInit {
       this.currentAddTimeout = setTimeout(() => {
         this.currentAddTimeout = null;
         this.pokemonsAreAdding = true;
-      }, 2000);
+      }, 1000);
     }
   }
 }

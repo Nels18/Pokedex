@@ -79,7 +79,6 @@
 // /// @require $secondary
 // $dark-secondary: scale-color($secondary, $lightness: -50%);
 
-
 // /// Darker Primary
 // /// @type Color
 // /// @require $secondary
@@ -93,3 +92,26 @@
 // /// Main font family
 // /// @type List
 // $main-font: "Jost", Arial, Helvetica, sans-serif;
+
+$pokemon-type-colors: (
+  grass: limegreen,
+  fire: orangered,
+  water: dodgerblue,
+  poison: purple,
+  normal: antiquewhite,
+  fighting: maroon,
+  flying: mediumpurple,
+  ground: goldenrod,
+  rock: darkgoldenrod,
+  bug: olive,
+  ghost: slateblue,
+  steel: slategrey,
+  electric: gold,
+  psychic: orchid,
+  ice: lightcyan,
+  dragon: mediumslateblue,
+  dark: saddlebrown,
+  fairy: violet,
+  shadow: indigo,
+  unknown: gainsboro,
+);
