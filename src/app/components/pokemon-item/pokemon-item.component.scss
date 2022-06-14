@@ -7,7 +7,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #eee;
+  background-color: #efefef;
   border: 1px solid #333;
   border-radius: 11px;
 
@@ -27,7 +27,7 @@
   }
 
   .card__body {
-    padding: 2em 1em;
+    padding: 1em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,6 +43,7 @@
     display: flex;
     justify-content: space-evenly;
     width: 100%;
+    margin-top: 1em;
 
     .pokemon__type {
       display: inline-block;
