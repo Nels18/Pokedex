@@ -1,0 +1,12 @@
+<li class="pokemon__item">
+  <div class="card__header">
+    <div class="pokemon__title">#{{pokemon.data?.id}} {{pokemon.name | titlecase}}</div>
+  </div>
+  <div class="card__body">
+    <img class="pokemon__img" src="{{pokemon.data?.sprites.front_default}}" alt="">
+    <ul class="pokemon__types">
+      <li class="pokemon__type pokemon__type--{{type.type.name}}" *ngFor="let type of pokemon.data?.types">
+        {{type.type.name}}</li>
+    </ul>
+  </div>
+</li>
